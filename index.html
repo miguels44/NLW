@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,10 +11,33 @@
 </head>
 <body>
     <header>
-        <img src="./assets/The_Witcher_logo.png" alt="logo de The Witcher"> 
+        <img src="./assets/witcher.png" alt="logo de The Witcher"> 
     </header>
     <main>
+        <section>
+            <div>            
+                <h2>Assistente de Meta</h2>
+                <p>Pergunte qualquer coisa relacionada ao jogo</p>
 
+                <form>
+                    <input type="password" placeholder="Escreva a sua API KEY do Gemini" required>
+                    <select>
+                        <option value="">Selecione o jogo</option>
+                        <option value="TW">The Witcher</option>
+                        <option value="TW2">The Witcher 2: Assassins of Kings</option>
+                        <option value="TW3">The Witcher 3: Wild Hunt</option>
+                    </select>
+                    <input type="text" placeholder="EX: Qual a melhor build para ..." required>
+                    <button>
+                        Perguntar
+                    </button>
+                </form>
+
+                <div id="aiResponse">
+                    <div class="response-content"></div>
+                </div>
+            </div>
+        </section>
     </main>
     
 </body>

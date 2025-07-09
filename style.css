@@ -1,5 +1,93 @@
 body{
-    background-image: url(./assets/tw.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    background-color: #28252e;
+    color: rgb(255, 255, 255);
+}
+
+body * {
+    font-family: "Inter";
+    line-height: 160%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+header img{
+    width: 30rem;
+}
+
+main{
+    max-width: 36rem;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+section{
+    background-image: linear-gradient(90deg, #2f4463 0%, #43E7AD 50%, #E2D45C 100%);
+    border-radius: 0.625rem;
+    padding-top: 0.3rem;
+    opacity: 0;
+    transform: translateY(2rem);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+section > div{
+    background-color: #2A2634;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+section p{
+    letter-spacing: -0.18px;
+    color: #a1a1a1;
+}
+
+@keyframes appear{
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form{
+    display: flex;
+    gap: 0.85rem;
+    margin: 1.25rem 0;
+    flex-wrap: wrap
+}
+
+input, select, button{
+    all: unset;
+    border: 1px solid #9147ff;
+    border-radius: 0.6rem;
+    padding: 2px;
+    background-color: #28252e;
+}
+
+input{
+    flex: 1;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(90deg, #2f4463 0%, #43E7AD 50%, #E2D45C 100%);
+    padding: 0.65rem;
+    transition: all 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 1rem rgba(255, 248, 105, 0.2);
 }
