@@ -15,30 +15,37 @@
     </header>
     <main>
         <section>
+
             <div>            
                 <h2>Assistente de Meta</h2>
                 <p>Pergunte qualquer coisa relacionada ao jogo</p>
 
-                <form>
-                    <input type="password" placeholder="Escreva a sua API KEY do Gemini" required>
-                    <select>
+                <form id="form">
+                    <input id="apiKey" type="password" placeholder="Escreva a sua API KEY do Gemini" required>
+
+                    <select id="gameSelect">
                         <option value="">Selecione o jogo</option>
                         <option value="TW">The Witcher</option>
                         <option value="TW2">The Witcher 2: Assassins of Kings</option>
                         <option value="TW3">The Witcher 3: Wild Hunt</option>
                     </select>
-                    <input type="text" placeholder="EX: Qual a melhor build para ..." required>
-                    <button>
+
+                    <input id="questionInput" type="text" placeholder="EX: Qual a melhor build para ..." required>
+
+                    <button id="askButton">
                         Perguntar
                     </button>
+
                 </form>
 
                 <div id="aiResponse">
                     <div class="response-content"></div>
                 </div>
+
             </div>
+
         </section>
     </main>
-    
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -78,6 +78,10 @@ input{
     flex: 1;
 }
 
+select{
+    cursor: pointer;
+}
+
 button{
     width: 100%;
     text-align: center;
