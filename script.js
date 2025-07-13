@@ -10,7 +10,6 @@ const markdownToHTML = (text) =>{
     return converter.makeHtml(text)
 }
 
-// AIzaSyBjJBbgPW7XAdUVGKTMCSXlFvMj9F5Tr3A
 const askAI = async (question, game, apiKey) => {
     const model = 'gemini-2.5-flash'
     const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
