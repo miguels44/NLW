@@ -6,8 +6,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GuIA The Witcher</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icone-the-witcher.ico">
 </head>
 <body>
     <header>
@@ -23,14 +24,14 @@
                 <form id="form">
                     <input id="apiKey" type="password" placeholder="Escreva a sua API KEY do Gemini" required>
 
-                    <select id="gameSelect">
+                    <select id="gameSelect" required>
                         <option value="">Selecione o jogo</option>
-                        <option value="TW">The Witcher</option>
-                        <option value="TW2">The Witcher 2: Assassins of Kings</option>
-                        <option value="TW3">The Witcher 3: Wild Hunt</option>
+                        <option value="The Witcher 1">The Witcher</option>
+                        <option value="The Witcher 2">The Witcher 2: Assassins of Kings</option>
+                        <option value="The Witcher 3">The Witcher 3: Wild Hunt</option>
                     </select>
 
-                    <input id="questionInput" type="text" placeholder="EX: Qual a melhor build para ..." required>
+                    <input id="questionInput" type="text" placeholder="EX: Qual a melhor build do jogo focada nos sinais?" required>
 
                     <button id="askButton">
                         Perguntar
@@ -38,7 +39,7 @@
 
                 </form>
 
-                <div id="aiResponse">
+                <div id="aiResponse" class="hidden">
                     <div class="response-content"></div>
                 </div>
 
@@ -46,6 +47,7 @@
 
         </section>
     </main>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

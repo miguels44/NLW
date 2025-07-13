@@ -112,3 +112,23 @@ button:disabled{
         opacity: 0.5;
     }
 }
+
+#aiResponse{
+    background-color: rgba(26, 24, 24, 0.418);
+    border-radius: 25px;
+    padding: 1.50rem;
+    border-top: solid #43E7AD;
+    border-bottom: solid #43E7AD;
+}
+
+#aiResponse ul{
+    color: rgb(133, 122, 122);
+}
+
+#aiResponse p{
+    color: white
+}
+
+.hidden{
+    display: none;
+}
