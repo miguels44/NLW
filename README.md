@@ -26,6 +26,7 @@ https://github.com/user-attachments/assets/b6d4d734-5ada-45c3-8a45-c8082075f58e
 
 ## 🚀 Screenshots:
 ![Texto alternativo](./docs/thewitcher2.png)
+![Texto alternativo](./docs/witcher.png)
 ![Texto alternativo](./docs/thewitcher1.png)
 
 ## ✨ Link de acesso:
