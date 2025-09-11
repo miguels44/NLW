@@ -24,6 +24,10 @@ O GuIA The Witcher permite que você faça perguntas específicas sobre o jogo �
 
 https://github.com/user-attachments/assets/b6d4d734-5ada-45c3-8a45-c8082075f58e
 
+## 🚀 Screenshots:
+![Texto alternativo](./docs/thewitcher2.png)
+![Texto alternativo](./docs/thewitcher1.png)
+
 ## 💡 Inspiração e Evento
 
 Este projeto foi desenvolvido como parte do evento **NLW 20 da Rocketseat**, uma iniciativa incrível que promove o aprendizado e a colaboração entre desenvolvedores. Agradeço à Rocketseat pela oportunidade e pelo conteúdo de alta qualidade.
