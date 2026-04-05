@@ -1,6 +1,6 @@
 # GuIA The Witcher: Seu Assistente Inteligente para The Witcher
 
-🚀 **Bem-vindo ao GuIA The Witcher!** Este projeto, desenvolvido durante a **NLW 20 da Rocketseat (Junho de 2024)**, utiliza o poder do **Google Gemini API** para oferecer respostas instantâneas e personalizadas sobre o universo de The Witcher.
+🚀 **Bem-vindo ao GuIA The Witcher!** Este projeto, desenvolvido durante a **NLW 20 da Rocketseat (Junho de 2025)**, utiliza o poder do **Google Gemini API** para oferecer respostas instantâneas e personalizadas sobre o universo de The Witcher.
 
 Desenvolvi este assistente para aprofundar meus conhecimentos em **Inteligência Artificial**, aprimorar minhas habilidades em **JavaScript**, **CSS** e **HTML**, e criar uma ferramenta útil para fãs dos jogos.
 
